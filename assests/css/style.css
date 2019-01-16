@@ -1,0 +1,45 @@
+body{
+    margin-top: 0;    
+}
+#bar {
+    width: 100%;
+    height: 75px;
+    background-color: gray;     
+}
+#navMid{
+    width: 60%;
+    margin: auto;
+}
+#navMid h1{
+    float: left;
+    display: inline;    
+    color: whitesmoke;    
+}
+#navList {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding-top: 1.5em;
+    text-align: center;     
+}
+#navList li{
+    display: inline;
+    padding-right: 10px;
+}
+a.navLink {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;      
+    text-decoration: none;     
+}
+#midBox{
+    width: 60%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aliceblue;
+}
+h1.title{
+    margin-top: 0px;
+    padding-top: 10px; 
+}
