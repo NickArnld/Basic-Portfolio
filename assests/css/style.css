@@ -1,5 +1,15 @@
 body{
-    margin-top: 0;    
+    margin-top: 0;
+    /* background: rgb(236, 236, 236);     */
+    background-image: url("../images/escheresque_@2X.png");
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 #bar {
     width: 100%;
@@ -7,13 +17,17 @@ body{
     background-color: gray;     
 }
 #navMid{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 #navMid h1{
-    float: left;
-    display: inline;    
-    color: whitesmoke;    
+    font-family: 'Fjalla One', sans-serif;
+    display: inline;
+    color: whitesmoke;
+    background-color: red; 
+    position: absolute;
+    padding: 22.5px;
+    margin: 0;   
 }
 #navList {
     float: right;
@@ -23,6 +37,7 @@ body{
     text-align: center;     
 }
 #navList li{
+    font-family: 'Fjalla One', sans-serif;
     display: inline;
     padding-right: 10px;
 }
@@ -33,13 +48,42 @@ a.navLink {
     text-decoration: none;     
 }
 #midBox{
-    width: 60%;
+    width: 70%;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: aliceblue;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aliceblue;    
 }
 h1.title{
+    font-family: 'Oswald', sans-serif;
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 10px; 
+}
+p.about{
+    float: inherit;
+}
+#profPic{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+input.inTitle{
+    width: 60%;
+}
+textarea{
+    height: 300px;
+    width: 60%;
+    margin-bottom: 5px;
 }

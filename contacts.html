@@ -6,7 +6,8 @@
         <title>Page Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="./assests/css/style.css" />
-        <script src="main.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     </head>
     <body>
         <nav id="bar">
@@ -20,7 +21,18 @@
             </div>
         </nav>
         <div id="midBox">
-            <h1>Contact</h1>
+            <h1 class="title">Contact</h1>
+            <hr>
+            <form>
+                <h3>Name</h3>
+                <input class="inTitle" type="text" name="name">
+                <h3>Email</h3>
+                <input class="inTitle" type="text" name="email">
+                <h3>Message</h3>
+                <textarea name="message">                    
+                </textarea> <br>
+                <input type="submit">
+            </form>
         </div>      
     </body>
 </html>
